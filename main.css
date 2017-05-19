@@ -1,0 +1,127 @@
+body {
+	padding:0;
+	margin:0;
+}
+
+.portfolio {
+	background-image:url(014texture.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.hobbies {
+	background-image:url(015texture.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.aboutMe {
+	background-image:url(016texture.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.contact {
+	background-image:url(018texture.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+
+ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	background-color:#333333;
+}
+
+li {float:left;}
+
+li a:link {
+	display:block;
+	color:#ff0066;
+	text-decoration:none;
+	padding:5px 80px;
+}
+	
+li a:visited {
+	color:#99cc33;
+	text-decoration:none;
+}
+
+li a:hover {
+	background-color:#66cc99;
+	color:#d5d7bf;
+	text-decoration:none;
+	transform:scale(1.2);
+}
+
+li a:active {
+	background-color:#ff9933;
+}
+
+#header {
+	text-align:center;
+	font-size:27px;
+	font-family:Stencil Std;
+	color:white;
+	padding-top:5px;
+	background-color:#cc6633;
+	margin-top:5px;
+}
+
+#left {
+	position:relative;
+	top:80px;
+}
+
+footer {
+	text-align:center;
+	font-family:Stencil Std;
+	color:pink;
+	background-color:#cc6633;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	text-decoration:blink;
+}
+
+#right {
+	position:relative;
+	left:500px;
+	top:60px;
+	padding:10px;
+	width:500px;
+	text-align:center;
+	font-size:20px;
+	background-color:#ffffcc;
+	border:8px solid #ff6600;
+	opacity:0.8;
+}
+
+#social {
+	position:relative;
+	top:50pt;
+	left:700px;
+}
+
+
+.social{
+    margin:20px;
+    width:30pt;
+    transition: 300ms ease;
+}
+
+
+.social:hover{
+    transform:scale(1.1);
+}
+
+#pic {
+	position:relative;
+}
+
+.me {
+	margin:20px;
+    width:300px;
+	
+    transition: 300ms ease;
+}
